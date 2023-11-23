@@ -1,0 +1,25 @@
+system:
+  host: "127.0.0.1"
+  http_port: 8080
+  mode: "development"
+  secret: "apsc_admin"
+  auth_code: "lhfjsyipjfqybeah"
+
+database:
+  driver: "mysql"
+  host: "192.168.2.8"
+  port: 3306
+  dbname: "apsc_admin"
+  username: "gan"
+  password: "Ghj201711#"
+
+objectStorage:
+  end_point: "192.168.2.8"
+  port: 9000
+  access_key_id: "minioadmin"
+  secret_access_key: "minioadmin"
+  use_ssl: false
+
+mailService:
+  host: "192.168.2.8"
+  dbname: "mailserver"
